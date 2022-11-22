@@ -14,7 +14,7 @@
     --color-pr: #f6bd60;
     --color-pr-v:#f7ede2;
     --color-w:white;
-    --color-light: #f5cac3;
+    --color-light: #ffefed;
     --container-w-lg:75%;
     --container-w-md:86%;
     --container-w-sm: 90%;
@@ -117,7 +117,7 @@ img{
     }  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 576px) {
     .container {
         width: var(--container-w-sm);
     }

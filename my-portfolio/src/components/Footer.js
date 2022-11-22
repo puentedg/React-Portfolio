@@ -5,12 +5,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer footer__container">
-      <h4>Made by</h4>
-      <a href="https://github.com/puentedg">
-        <h4>
-         <b>Gabriella</b>
-        </h4>
-      </a>
+     <h5>Made by<a href="https://github.com/puentedg"><b> Gabriella</b></a></h5>
     </div>
   );
 }

@@ -11,7 +11,7 @@ const Header = () => {
                 <Typical
                 steps = {[
                     "Hello I'm",
-                    1000,
+                    10000,
                 ]}
                 loop={Infinity}
                 wrapper="h4"
@@ -24,7 +24,7 @@ const Header = () => {
                 <div className='me'>
                     <img src={ME3} alt="me"/>
                 </div>
-                {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
+                <a href="#contact" className='scroll__down'>Scroll Down</a>
             </div>
         </header>
     )
