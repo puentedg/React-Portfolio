@@ -6,36 +6,39 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
-const App = () => {
-    const [activeNav, setActiveNav] = useState('About');
+const Homepage= () => {
+    const [currentPage, setCurrentPage] = useState('#');
 
     const renderPage = () => {
-        if (activeNav === "about") {
+        if (currentPage === "about") {
             return <About />;
           }
-          if (activeNav === "skills") {
+          if (currentPage === "skills") {
             return <Skills />;
           }
-          if (activeNav === "projects") {
+          if (currentPage === "projects") {
             return <Projects />;
           }
-          if (activeNav === "contact") {
+          if (currentPage === "contact") {
             return <Contact />;
           }
-          if (activeNav === "resume")
+          if (currentPage === "resume") {
           return <Resume />;
+          }
         };
       
-        const handlePageChange = (page) => setActiveNav(page);
+        const handlePageChange = (page) => setCurrentPage(page);
       
         return (
           <div>
-            <Nav activeNav={activeNav} handlePageChange={handlePageChange} />
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             <Header />
             {renderPage()}
+            <Footer />
           </div>
         );
 }
 
-export default App;
+export default Homepage;
