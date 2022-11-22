@@ -3,7 +3,7 @@ import './about.css'
 import CV from '../../assets/Resume.pdf'
 const Resume = () => {
     return (
-        <div className='cta'>
+        <div className='cv'>
             <a href={CV} download className='btn'>Download CV</a>
         </div>
     )
