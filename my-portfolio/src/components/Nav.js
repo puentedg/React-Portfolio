@@ -6,7 +6,6 @@ import {BiBook} from 'react-icons/bi';
 import {RiServiceLine} from 'react-icons/ri';
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {AiFillFileText} from 'react-icons/ai'
-import { useState } from 'react';
 
 const Nav = ({currentPage, handlePageChange}) => {
    console.log(currentPage, handlePageChange);
