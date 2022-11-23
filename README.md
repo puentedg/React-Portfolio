@@ -34,6 +34,8 @@ This application is to be used as a showcase for my portfolio
 ## Deployed Application
 This is the link to my application: 
 
+https://puentedg.github.io/React-Portfolio
+
 ## Questions 
 In case you have any additional questions, please contact me:
    
