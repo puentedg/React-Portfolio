@@ -2,7 +2,7 @@ nav {
     background-color: rgba(0,0,0,0.3);
     width: max-content;
     display: block;
-    padding: 0.5rem 2.5rem;
+    padding: 0.8rem 3.5rem;
     z-index:2;
     position:fixed;
     left:50%;
@@ -24,7 +24,7 @@ nav a {
     border-radius: 50%;
     display:flex;
     color:var(--color-light);
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 nav a:hover {
@@ -45,6 +45,7 @@ nav a.active {
         flex-direction: column; */
         top: auto;
         bottom: 2rem;
+        padding: 0.8rem 3.5rem;
     }
     nav a {
         padding:0;
