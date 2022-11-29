@@ -16,7 +16,7 @@ nav {
     backdrop-filter: blur(15px);
 }
 nav:hover {
-    padding: 1.0rem 3rem;
+    padding: 1.5rem 5rem;
 }
 nav a {
     background: transparent;
@@ -49,5 +49,8 @@ nav a.active {
     }
     nav a {
         padding:0;
+    }
+    nav:hover {
+        padding: 1.5rem 5rem;
     }
 }
