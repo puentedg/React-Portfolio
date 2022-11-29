@@ -6,7 +6,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 const Homepage= () => {
     const [currentPage, setCurrentPage] = useState('#');
@@ -36,7 +36,7 @@ const Homepage= () => {
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             <Header />
             {renderPage()}
-            <Footer />
+            {/* <Footer /> */}
           </div>
         );
 }

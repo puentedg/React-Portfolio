@@ -1,7 +1,7 @@
 nav {
     background-color: rgba(0,0,0,0.3);
     width: max-content;
-    /* display: block; */
+    display: block;
     padding: 0.5rem 2.5rem;
     z-index:2;
     position:fixed;
@@ -41,8 +41,8 @@ nav a.active {
 
 @media screen and (max-width: 576px) {
     nav {
-        display:flex;
-        flex-direction: column;
+        /* display:flex;
+        flex-direction: column; */
         top: auto;
         bottom: 2rem;
     }
