@@ -68,10 +68,10 @@ const Skills = () => {
                             <h4><SiExpress className='icons_skills'/> Express </h4>
                             {/* <Progressbar bgcolor="#f6bd60" progress='93' height={15} /> */}
                         </article>
-                        <article className='experience__details'>
+                        {/* <article className='experience__details'>
                             <h4><FaNpm className='icons_skills'/> npm </h4>
-                            {/* <Progressbar bgcolor="#f6bd60" progress='98' height={15} /> */}
-                        </article>
+                            {/* <Progressbar bgcolor="#f6bd60" progress='98' height={15} />
+                        </article>  */}
                     </div>
             </div>
         </div>

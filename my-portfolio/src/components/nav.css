@@ -14,9 +14,13 @@ nav {
     gap:0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    padding: 1.2rem 6rem;
+
 }
 nav:hover {
-    padding: 1.5rem 5rem;
+    gap:0rem;
+    transition: var(--transition);
+    padding: 1.2rem 10rem;
 }
 nav a {
     background: transparent;
@@ -25,10 +29,12 @@ nav a {
     display:flex;
     color:var(--color-light);
     font-size: 2rem;
+    transition: var(--transition);
 }
 
 nav a:hover {
     background: rgba(0,0,0,0.3);
+    transition: var(--transition);
 
 }
 
@@ -36,7 +42,9 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-w);
 }
-
+.nav__text {
+    font-size: 18px;
+}
 
 
 @media screen and (max-width: 576px) {
