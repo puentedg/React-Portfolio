@@ -35,6 +35,7 @@ nav a {
 nav a:hover {
     background: rgba(0,0,0,0.3);
     transition: var(--transition);
+    padding: 0.8rem 0.5rem;
 
 }
 
@@ -58,7 +59,12 @@ nav a.active {
     nav a {
         padding:0;
     }
+
     nav:hover {
-        padding: 1.5rem 5rem;
+        padding: 0.8rem 3.8rem;
+        gap:0.8rem;
+    }
+    .nav__text{
+        display: none;
     }
 }
