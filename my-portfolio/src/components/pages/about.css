@@ -95,8 +95,11 @@
     }
     .about__content {
         text-align: center;
+        width: 90%;
+        margin: auto;
     }
     .about__container p {
         margin: 1.5rem 0;
+        margin-bottom: 10rem;
     }
 }

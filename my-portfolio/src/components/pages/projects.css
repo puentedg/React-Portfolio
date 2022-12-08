@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
     text-align: center;
+    margin-bottom: 15rem;
 }
 
 .portfolio__item {
@@ -48,6 +49,15 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        width: 90%;
+        margin: auto;
+    }
+    .portfolio__item {
+        width: 90%;
+        margin: auto;
+    }
+    #projects {
+        margin-bottom: 20rem;
     }
 }
 
