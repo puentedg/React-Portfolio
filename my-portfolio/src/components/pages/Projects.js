@@ -22,6 +22,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/puentedg/coding-quiz' className='btn btn__project' target='_blank'>Github</a>
                         <a href='https://puentedg.github.io/coding-quiz/' className='btn btn-primary btn__project' target='_blank'>Live Demo</a>
+                        <p>JavaScript | HTML | CSS </p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -32,6 +33,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/puentedg/Weather-dashboard' className='btn' target='_blank'>Github</a>
                         <a href='https://puentedg.github.io/Weather-dashboard/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <p>Frontend | 3rd Party APIs</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -42,6 +44,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/puentedg/Team-Generator/' className='btn' target='_blank'>Github</a>
                         <a href='https://drive.google.com/file/d/1Xnx0USb2wwfZVsdaZT6dAdLWZpSuR_e_/view' className='btn btn-primary' target='_blank'>Video</a>
+                        <p>Express.js | Backend</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -52,6 +55,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/Muaizkh/Search-Displayer' className='btn' target='_blank'>Github</a>
                         <a href='https://muaizkh.github.io/Search-Displayer/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <p>Frontend | 3rd Party APIs</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -62,6 +66,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/puentedg/tech-blog' className='btn' target='_blank'>Github</a>
                         <a href='https://murmuring-peak-33881.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <p>FullStack | MySQL | 3rd Party APIs</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -72,6 +77,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/hmhtom/tech-event-planner' className='btn' target='_blank'>Github</a>
                         <a href='https://tech-event-planner.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <p>FullStack | 3rd Party APIs | Express.js</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -82,6 +88,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/Iva416/WorkoutBuddy' className='btn' target='_blank'>Github</a>
                         <a href='https://workout-buddy-01.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <p>FullStack | NoSQL | GraphQL</p>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -92,6 +99,7 @@ const Projects = () => {
                     <div className='portfolio__cta'>
                         <a href='https://github.com/puentedg/social-network-API' className='btn' target='_blank'>Github</a>
                         <a href='https://drive.google.com/file/d/1DCns4N-nCidU9e9zZb8SJgII4g4pcEPE/view' className='btn btn-primary' target='_blank'>Video</a>
+                        <p>Backend | 3rd Party APIs</p>
                     </div>
                 </article>
             </div>
